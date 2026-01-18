@@ -1,15 +1,22 @@
 {
   "name": "nasodev-marketplace",
-  "description": "Claude Code plugins by nasodev",
   "owner": {
     "name": "nasodev",
     "email": "creationand2017@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by nasodev",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "git-workflow",
       "description": "Git workflow automation with interactive scripts. Provides branch, sync, commit, push, PR, and merge commands.",
-      "source": "https://github.com/nasodev/claude-git-workflow"
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nasodev/claude-git-workflow.git"
+      }
     }
   ]
 }
