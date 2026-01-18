@@ -12,7 +12,7 @@
     {
       "name": "git-workflow",
       "description": "Git workflow automation with interactive scripts. Provides branch, sync, commit, push, PR, and merge commands with context isolation.",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "source": {
         "source": "url",
         "url": "https://github.com/nasodev/claude-git-workflow.git"
