@@ -1,0 +1,12 @@
+{
+  "name": "nasodev-marketplace",
+  "description": "Claude Code plugins by nasodev",
+  "version": "1.0.0",
+  "plugins": {
+    "git-workflow": {
+      "description": "Git workflow automation with interactive scripts",
+      "repository": "https://github.com/nasodev/claude-git-workflow",
+      "categories": ["git", "workflow", "automation", "devops"]
+    }
+  }
+}
