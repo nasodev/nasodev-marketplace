@@ -24,13 +24,13 @@ Add this marketplace to Claude Code:
 ```
 
 **What you get:**
-- `/git:0.check` - Git 상태 및 설정 확인
-- `/git:1.branch` - 새 브랜치 생성
-- `/git:2.sync` - main 브랜치 동기화
-- `/git:3.commit` - 변경사항 커밋
-- `/git:4.push` - Remote에 Push
-- `/git:5.pr` - Pull Request 생성
-- `/git:6.merge` - Main에 머지
+- `/git-0-check` - Git 상태 및 설정 확인
+- `/git-1-branch` - 새 브랜치 생성
+- `/git-2-sync` - main 브랜치 동기화
+- `/git-3-commit` - 변경사항 커밋
+- `/git-4-push` - Remote에 Push
+- `/git-5-pr` - Pull Request 생성
+- `/git-6-merge` - Main에 머지
 
 **Features:**
 - Interactive shell scripts with color output
@@ -55,8 +55,8 @@ Add this marketplace to Claude Code:
 ```
 
 **What you get:**
-- `/blog:img` - Generate AI image prompts from blog posts
-- `/blog:img-apply` - Compress and apply images to blog with frontmatter update
+- `/blog-img` - Generate AI image prompts from blog posts
+- `/blog-img-apply` - Compress and apply images to blog with frontmatter update
 
 **Features:**
 - Analyze blog content (topic, keywords, tone)
