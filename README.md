@@ -43,6 +43,32 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Blog Tools
+
+**Description:** Blog content management tools. Generate header image prompts from MDX posts and apply optimized images with compression.
+
+**Categories:** Blog, Content, Image, MDX, Next.js
+
+**Install:**
+```bash
+/plugin install blog-tools@nasodev-marketplace
+```
+
+**What you get:**
+- `/blog:img` - Generate AI image prompts from blog posts
+- `/blog:img-apply` - Compress and apply images to blog with frontmatter update
+
+**Features:**
+- Analyze blog content (topic, keywords, tone)
+- Generate English prompts for AI image generators
+- Multiple style support (minimalism, pop-art, isometric, etc.)
+- Image compression (JPG, 80% quality, max 1920px)
+- Auto-update MDX frontmatter
+
+**Repository:** https://github.com/nasodev/claude-blog-tools
+
+---
+
 ## Support
 
 - **Issues**: https://github.com/nasodev/nasodev-marketplace/issues

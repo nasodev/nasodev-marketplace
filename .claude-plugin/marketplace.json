@@ -17,6 +17,15 @@
         "source": "url",
         "url": "https://github.com/nasodev/claude-git-workflow.git"
       }
+    },
+    {
+      "name": "blog-tools",
+      "description": "Blog content management tools. Generate header image prompts from MDX posts and apply optimized images with compression.",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nasodev/claude-blog-tools.git"
+      }
     }
   ]
 }
