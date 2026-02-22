@@ -69,6 +69,39 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Sonar Workflow
+
+**Description:** SonarQube 코드 이슈를 수집 → 분석 → 수정 → 검증 → 승인까지 자동 처리하는 워크플로우 플러그인. AI 에이전트가 병렬로 이슈를 분석/수정하고, 리뷰 게이트와 TDD 게이팅을 통해 품질을 보장합니다.
+
+**Categories:** SonarQube, Code Quality, Workflow, Automation, Jira, TDD
+
+**Install:**
+```bash
+/plugin install sonar@nasodev-marketplace
+```
+
+**What you get:**
+- `/sonar-setup` - 프로젝트 초기 설정 (리포 클론, 이슈 수집)
+- `/sonar --action=run` - 이슈 자동 처리 (분석 → 리뷰 → 수정 → 검증)
+- `/sonar --action=group` - 단순 이슈 자동 그룹화
+- `/sonar --action=approve` - 승인 (Jira 생성 + 커밋 + 머지)
+- `/sonar --action=status` - 워크플로우 상태 확인
+- `/sonar-sync` - 웹 서비스 동기화
+
+**Features:**
+- Parallel subagent processing (max 10 concurrent)
+- AI-powered code analysis and automated fixes
+- Review gates with PASS/FAIL verdict (max 4 retries)
+- TDD gating for BUG/VULNERABILITY issues
+- Automatic issue grouping for simple patterns
+- Jira ticket creation + git branch/commit/merge
+- Web dashboard sync (FastAPI + Next.js)
+- Git worktree isolation per issue
+
+**Repository:** https://github.com/nasodev/claude-sonarcube-workflow
+
+---
+
 ## Support
 
 - **Issues**: https://github.com/nasodev/nasodev-marketplace/issues

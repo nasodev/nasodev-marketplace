@@ -26,6 +26,15 @@
         "source": "url",
         "url": "https://github.com/nasodev/claude-blog-tools.git"
       }
+    },
+    {
+      "name": "sonar",
+      "description": "SonarQube issue automation workflow. Collects issues, AI-analyzes/fixes code with parallel subagents, TDD gating, review gates, Jira integration, and web dashboard sync.",
+      "version": "1.0.8",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nasodev/claude-sonarcube-workflow.git"
+      }
     }
   ]
 }
